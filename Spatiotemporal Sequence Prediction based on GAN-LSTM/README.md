@@ -18,10 +18,10 @@
 
 * [**figure**](https://github.com/ArtificialIntelligenceBirdMan/DeepLearningProject/tree/main/Spatiotemporal%20Sequence%20Prediction%20based%20on%20GAN-LSTM/figure)
     * 包含问题说明示意图和一些模型流程示意图
-* **model**
-    * 保存训练得到的GAN模型的生成器和判别器
+* [**model**](https://github.com/ArtificialIntelligenceBirdMan/DeepLearningProject/tree/main/Spatiotemporal%20Sequence%20Prediction%20based%20on%20GAN-LSTM/model)
+    * 保存训练得到的GAN模型的生成器和判别器(由于Github文件大小限制，这里没有上传判别器模型文件，只有生成器模型的文件)
     * 包含三个文件夹MixedGAN_GC、MixedGAN_GP和MixedGAN_WD，分别对应三种不同的GAN模型训练策略：Gradient Clipping、Gradient Penalty和Wasserstein Loss，详细说明见Notebook源码文件. 
-* **output**
+* [**output**](https://github.com/ArtificialIntelligenceBirdMan/DeepLearningProject/tree/main/Spatiotemporal%20Sequence%20Prediction%20based%20on%20GAN-LSTM/output)
     * 存放GAN模型在不同训练轮次后生成的压强场示例图，用于观察GAN模型的学习程度
     * 三个文件夹MixedGAN_GC、MixedGAN_GP和MixedGAN_WD，分别对应三种不同的GAN模型训练策略下生成结果
 * **源码文件**
